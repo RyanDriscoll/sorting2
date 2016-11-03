@@ -12,7 +12,6 @@ describe('Bubble Sort', function() {
   });
 
   it('returns a sorted array', function() {
-      console.log(testArr, sortedArr);
     expect(bubbleSort(testArr)).toEqual(sortedArr);
   });
 
